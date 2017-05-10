@@ -63,7 +63,7 @@ end
 
 # Render view with the given filename.
 macro render(filename)
-  Kilt.render({{filename}})
+  Kilt.file({{filename}})
 end
 
 # Halt execution with the current context.
